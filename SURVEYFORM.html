@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<link href="C:\Users\MUG-SHOTT\Documents\Untitled-3.css" rel="stylesheet" type="text/css">
+
+
+<h1 id="title">SURVEY FORM</h1>
+
+<form id="survey-form">
+
+    <p id="description" align='center'>Tell us how you found out about Freecodecamp.</p>
+
+    <label id="name-label" for="name">* NAME : </label><input id="name" type='text' placeholder=' enter your name'
+        required>
+
+    <label id='email-label'>* E-MAIL : </label><input id='email' type='email' placeholder=' enter your email' required>
+
+    <label id='number-label'>* AGE : </label><input id='number' type='number' placeholder=' age' min="16" max="40"
+        required>
+
+    <label for='dropdown'>Select where you got the recomendation from:</label>
+    <select id='dropdown'>
+        <option value='Facebook'>Facebook</option>
+        <option value='Google'>Google</option>
+        <option value='Twitter'>Twitter</option>
+        <option value='Tumbler'>Tumbler</option>
+    </select>
+
+
+    <label target>HOW WOULD YOU PREFER TAKING OUR COURSES? : </label>
+    <div id='radio'>
+        <label for='online'><input type='radio' name='option' id='online' value='online'>ONLINE</label>
+        <label for='part-time'><input type='radio' name='option' id='part-time' value='part-time'>PART TIME</label>
+        <label for='full-time'><input type='radio' name='option' id='full-time' value='full-time'>FULL TIME</label>
+    </div>
+
+
+
+    <label target>Which Program are you intrested in :</label>
+    <div id='check'>
+        <label for='a'><input type='checkbox' name='lt' id='a' value='responsive-web-design'>RESPONSIVE WEB
+            DESIGN</label>
+        <label for='b'><input type='checkbox' name='lt' id='b' value='javascript'>JAVASCRIPT</label>
+        <label for='c'><input type='checkbox' name='lt' id='c' value='data-analysis'>DATA ANALYSIS</label>
+        <label for='d'><input type='checkbox' name='lt' id='d' value='machine-learning'>MACHINE LEARNING</label>
+        <label for='c'><input type='checkbox' name='lt' id='c' value='quality assurance'>QUALITY ASSURANCE</label>
+    </div>
+
+    <textarea placeholder='ADDITIONAL COMMENTS'></textarea>
+
+
+
+    <input type='submit' id='submit'>
+
+
+</form>
+</html>
